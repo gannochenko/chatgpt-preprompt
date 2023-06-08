@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "ChatGPT Pre-prompt",
-  "description": "Sends a pre-defined prompt to ChatGPT text input",
-  "version": "1.0",
+  "name": "Chat-GPT pre-prompt",
+  "description": "Sends a pre-defined prompt template to ChatGPT text input",
+  "version": "0.0.1",
   "icons": {
     "250": "icon.png"
   },
