@@ -1,13 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "Copy token to clipboard",
-  "description": "Copy token to clipboard",
+  "name": "ChatGPT Pre-prompt",
+  "description": "Sends a pre-defined prompt to ChatGPT text input",
   "version": "1.0",
   "action": {
     "default_popup": "popup.html"
-  },
-  "background": {
-    "service_worker": "background.js"
   },
   "content_scripts": [
     {

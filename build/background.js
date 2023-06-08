@@ -1,1 +1,0 @@
-(()=>{"use strict";chrome.storage.onChanged.addListener((function(e,a){for(let[n,{oldValue:o,newValue:l}]of Object.entries(e))console.log(`Storage! key "${n}" in namespace "${a}" changed.`,`Old value was "${o}", new value is "${l}".`)}))})();

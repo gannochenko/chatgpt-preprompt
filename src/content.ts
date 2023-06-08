@@ -7,6 +7,6 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     }
 
     if (request.name in contentHandlers) {
-        contentHandlers[request.name](sendResponse);
+        contentHandlers[request.name](request.data, sendResponse);
     }
 });
