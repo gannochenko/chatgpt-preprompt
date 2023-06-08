@@ -6,9 +6,12 @@ when sending almost identical prompts.
 ## Installation
 
 1. Clone the project.
-2. Go to `chrome://extensions`, enable the `Development mode`.
-3. Choose `Load unpacked` and load from the `build/` folder.
-4. Enjoy!
+2. Go to the project folder and run:
+   1. `yarn`
+   2. `yarn build`
+3. Go to `chrome://extensions`, enable the `Development mode`.
+4. Choose `Load unpacked` and load from the `build/` folder.
+5. Enjoy!
 
 ## Usage
 
