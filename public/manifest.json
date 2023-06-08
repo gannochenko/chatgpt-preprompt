@@ -3,6 +3,9 @@
   "name": "ChatGPT Pre-prompt",
   "description": "Sends a pre-defined prompt to ChatGPT text input",
   "version": "1.0",
+  "icons": {
+    "250": "icon.png"
+  },
   "action": {
     "default_popup": "popup.html"
   },
