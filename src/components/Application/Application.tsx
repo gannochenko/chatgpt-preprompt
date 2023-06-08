@@ -10,8 +10,8 @@ export const Application: FC<ApplicationPropsType> = () => {
 
     return (
         <Box padding={2} width={300}>
-            <Button variant="contained" fullWidth {...sendPromptGrammaticallyCorrectProps}>
-                Is this sentence correct
+            <Button variant="outlined" fullWidth {...sendPromptGrammaticallyCorrectProps}>
+                Is this sentence grammatically correct... ?
             </Button>
         </Box>
     );
